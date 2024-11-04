@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title>Campaign</title>
+
+    <!-- Tailwind CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body class="container mx-auto">
+    <header class="relative h-svh bg-cover bg-center bg-no-repeat">
+      <img src="img/photo.jpg" alt="Campaign Image" class="h-1/2 w-full object-cover" />
+      <div
+        class="absolute inset-0 flex flex-col items-start justify-end bg-gradient-to-b from-transparent via-white to-white p-4">
+        <div class="mb-4">
+          <h1 class="mb-2 text-3xl font-bold">Wisuda Tidak Adil di Tel-U Purwokerto!</h1>
+          <p class="italic">
+            Mahasiswa Universitas Telkom Kampus Purwokerto menyerukan peninjauan ulang kebijakan wisuda terbaru yang
+            memberatkan...
+          </p>
+        </div>
+        <div id="progress-bar-container" class="mb-4 w-full">
+          <div id="progress-bar" class="h-4 w-full bg-gray-200">
+            <div id="progress" class="h-4 w-3/4 bg-red-500"></div>
+          </div>
+          <div id="progress-text" class="mt-1 flex justify-between gap-8 text-sm">
+            <span class="text-left">75.000 mahasiswa telah mengisi</span>
+            <span class="text-right">dari 100.000 total mahasiswa</span>
+          </div>
+        </div>
+        <div id="scroll-down" class="mb-4 w-full text-center">
+          <a href="#campaign" class="text-blue-500">Gulir ke bawah</a>
+        </div>
+      </div>
+    </header>
+    <hr class="my-4" />
+    <main id="campaign" class="p-4">
+      <section id="campaign" class="mb-4">
+        <p class="mb-2">
+          Kami, mahasiswa Universitas Telkom Kampus Purwokerto, merasa kecewa dengan kebijakan wisuda terbaru yang
+          diberlakukan untuk periode Desember 2024. Kebijakan ini menimbulkan beberapa poin ketidakpuasan yang
+          memberatkan mahasiswa, yaitu:
+        </p>
+        <ol class="ml-4 list-outside list-decimal">
+          <li class="mb-2">
+            <p>
+              <strong>Kenaikan biaya pendaftaran yang signifikan</strong><br />Biaya pendaftaran wisuda naik dari Rp.
+              902.500,- menjadi Rp. 1.502.500,-, tanpa rincian komponen biaya yang jelas. Hal ini menambah beban
+              finansial bagi mahasiswa yang seharusnya dapat merayakan kelulusan tanpa tekanan ekonomi yang berlebihan.
+            </p>
+          </li>
+          <li class="mb-2">
+            <p>
+              <strong>Toga dan aksesoris tidak lagi termasuk dalam biaya pendaftaran</strong><br />Berbeda dengan wisuda
+              periode sebelumnya, mahasiswa kini diwajibkan membayar tambahan sebesar Rp. 225.000,- untuk sewa dan
+              jaminan peminjaman toga di luar biaya pendaftaran. Ini adalah kebijakan yang membuat kami merasa kurang
+              dihargai, mengingat biaya tersebut seharusnya sudah termasuk dalam pendaftaran.
+            </p>
+          </li>
+          <li class="mb-2">
+            <p>
+              <strong>Tenggat waktu pendaftaran yang sangat singkat</strong><br />Waktu pendaftaran yang hanya dibuka
+              dari tanggal 4 hingga 8 November 2024 memberikan kami waktu yang sangat terbatas untuk mempersiapkan diri,
+              terutama dalam hal pengelolaan biaya. Dengan tenggat waktu yang demikian singkat, kami merasa kampus
+              kurang memperhatikan kebutuhan mahasiswa dalam persiapan wisuda.
+            </p>
+          </li>
+        </ol>
+        <p class="mb-2">
+          Kami berharap pihak kampus bisa <strong>meninjau kembali kebijakan</strong> ini dengan mempertimbangkan
+          masukan dari mahasiswa. Wisuda seharusnya menjadi momen perayaan kelulusan yang penuh makna, bukan beban
+          finansial tambahan yang tidak wajar.
+        </p>
+        <div id="signature" class="mt-4 border border-gray-200 bg-gradient-to-b from-white to-gray-100 p-4">
+          <p class="mb-4 text-justify">
+            Mari dukung petisi ini untuk memperjuangkan
+            <strong>kebijakan wisuda yang lebih adil, transparan, dan terjangkau</strong>
+            bagi seluruh mahasiswa! Bersama, kita suarakan aspirasi kita agar kampus bisa lebih peka terhadap kebutuhan
+            kita.
+          </p>
+          <a href="sign.html" class="block w-full rounded bg-red-500 px-4 py-2 text-center text-white"
+            >Tandatangani Petisi</a
+          >
+        </div>
+      </section>
+      <hr class="my-8" />
+      <section id="signatures" class="mt-4">
+        <h2 class="mb-4 text-center text-xl font-semibold">Tanggapan Para Mahasiswa</h2>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div class="border border-gray-200 p-4">
+            <p class="mb-2">
+              "Saya merasa kecewa dengan kebijakan wisuda terbaru ini. Semoga petisi ini bisa membuat kampus
+              mendengarkan suara mahasiswa."
+            </p>
+            <p class="text-right">- Andi, Mahasiswa Teknik Informatika</p>
+          </div>
+          <div class="border border-gray-200 p-4">
+            <p class="mb-2">
+              "Kampus seharusnya memperhatikan kebutuhan mahasiswa dalam hal finansial. Semoga petisi ini bisa membuat
+              kampus lebih peka."
+            </p>
+            <p class="text-right">- Budi, Mahasiswa Sistem Informasi</p>
+          </div>
+          <div class="border border-gray-200 p-4">
+            <p class="mb-2">
+              "Wisuda adalah momen berharga bagi setiap mahasiswa. Kampus seharusnya bisa membuat momen ini lebih
+              berkesan."
+            </p>
+            <p class="text-right">- Cici, Mahasiswa Desain Komunikasi Visual</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- <footer class="p-4 text-center">
+      <p>Presented by BEM KEMA Tel-U Purwokerto</p>
+    </footer> -->
+  </body>
+</html>
